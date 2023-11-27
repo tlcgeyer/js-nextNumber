@@ -1,0 +1,66 @@
+body {
+    font-family: 'Haettenschweiler';
+    background-color: rgb(12, 164, 165);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+    background-color: #aed9e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(46, 41, 78);
+}
+
+.title {
+    color: #2a3d4f;
+}
+
+.instruction {
+    color: #2a3d4f;
+}
+
+.number-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#currentNumber {
+    font-size: 36px;
+    margin-right: 10px;
+    color: darkblue;
+    
+}
+
+#nextButton {
+    background-color: rgb(229, 252, 255);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#nextButton:hover {
+    background-color: rgb(171, 218, 252);
+}
+
+@media (max-width: 600px) {
+    #currentNumber {
+        font-size: 24px;
+    }
+
+    #nextButton {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
